@@ -6,7 +6,7 @@
 ## Imports
 
 ### Standard Library Imports
-#### stdlib libraries should be used with a general library-wide import.
+#### STDLIB LIBRARIES SHOULD BE USED WITH A GENERAL LIBRARY-WIDE IMPORT.
 ##### ALLOWED
 ```py
 import math
@@ -18,7 +18,7 @@ from math import sqrt
 print(sqrt(2))
 ```
 ### Third Party Imports
-#### Third Party Libraries should be used with a function, or class wide import.
+#### THIRD PARTY LIBRARIES SHOULD BE USED WITH A FUNCTION, OR CLASS WIDE IMPORT.
 ##### ALLOWED
 ```py
 from numpy import sum
@@ -34,7 +34,7 @@ print(np.sum([2,2,4,6]))
 ## Functions
 
 ### Function definitions
-#### Functions should have an appropriate docstring.
+#### FUNCTIONS SHOULD HAVE AN APPROPRIATE DOCSTRING.
 ##### ALLOWED
 ```py
 def my_function():
@@ -48,7 +48,7 @@ def my_function():
 def my_function():
     return 0
 ```
-#### Functions should have an appropriate type signature.
+#### FUNCTIONS SHOULD HAVE AN APPROPRIATE TYPE SIGNATURE.
 ##### ALLOWED
 ```py
 # function :: int -> int -> int
